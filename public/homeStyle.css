@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#map{
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar{
+    z-index: 1;
+    width: 100vw;
+    position: fixed;
+}
+
+.navbar-brand{
+    font-style: italic;
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.controls{
+    z-index: 1;
+}
+
+.popup{
+    padding: 5px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup h5{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "covidtracker",
+  "version": "1.0.0",
+  "description": "An App to visualize the number of covid case on world map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0"
+  }
+}
